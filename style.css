@@ -1,0 +1,43 @@
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #0b0a0a;
+
+}
+
+.footer-item {
+    width: 33.33%;
+    float: left;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:700px) {
+
+    .footer-item {
+        font-size: 12px;
+        overflow: hidden;
+
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .footer-item {
+        font-size: 10px;
+
+
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+    .footer-item {
+        width: 100%;
+        text-align: center;
+
+    }
+}
